@@ -53,4 +53,4 @@
   (run-with-timer sec nil (lambda ()
                             (font-lock-mode -1))))
 
-(provide 'abc-mode)
+(provide 'abc)
