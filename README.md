@@ -1,3 +1,16 @@
+# Usage
+
+```lisp
+(require 'abc-mode)
+
+M-x abc
+```
+Then enter subject like Banana-Types and start typing like hell.
+
+When you are finished you can save the file or delete it, every file
+is timestamped.
+If you need customizations: Hack away it's very small ;)
+
 # Use Cases
 
 Start ABC

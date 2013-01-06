@@ -52,3 +52,5 @@
   (setq abc-start-time (time-add (current-time) (list 0 sec 0)))
   (run-with-timer sec nil (lambda ()
                             (font-lock-mode -1))))
+
+(provide 'abc-mode)
