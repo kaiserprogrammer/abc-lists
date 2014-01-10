@@ -31,8 +31,8 @@
   (defadvice self-insert-command (after positioning (n) activate)
     (when (string= mode-name "ABC")
       (when (not abc-inserting)
-        (when (= 1 (length (word-at-point)))
-          (let ((start-char (elt (word-at-point) 0)))
+        (when (= 1 (length (thing-at-point 'symbol)))
+          (let ((start-char (elt (thing-at-point 'symbol) 0)))
             (delete-char -1)
             (goto-abc start-char)))))))
 
